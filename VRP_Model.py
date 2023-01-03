@@ -47,6 +47,8 @@ class Node:
         self.positionInRoute=0
         self.untime = untime
         self.waitingtime = 0
+        self.isTabuTillIterator = -1
+
 
 
 class Route:
